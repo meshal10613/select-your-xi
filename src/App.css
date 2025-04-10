@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.my-element{
+    background: 
+    url('/bg-shadow.png') no-repeat center center,black;                                  
+    background-size: cover, cover;
+    height: 65vh;
+}
+
+.my-element-footer{
+    background: 
+    url('/bg-shadow.png') no-repeat center center,white;                                  
+    background-size: cover, cover;
+    height: 40vh;
+}
