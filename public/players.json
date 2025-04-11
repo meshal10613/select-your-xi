@@ -1,0 +1,233 @@
+[
+    {
+    "playerId": 1,
+    "name": "Virat Kohli",
+    "country": "India",
+    "image": "https://example.com/images/virat_kohli.jpg",
+    "role": "Batsman",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm medium",
+    "biddingPrice": 2000000,
+    "rating": 5
+    },
+    {
+    "playerId": 2,
+    "name": "Steve Smith",
+    "country": "Australia",
+    "image": "https://example.com/images/steve_smith.jpg",
+    "role": "Batsman",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm leg spin",
+    "biddingPrice": 1800000,
+    "rating": 5
+    },
+    {
+    "playerId": 3,
+    "name": "Ben Stokes",
+    "country": "England",
+    "image": "https://example.com/images/ben_stokes.jpg",
+    "role": "All-Rounder",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Right-arm fast-medium",
+    "biddingPrice": 2500000,
+    "rating": 5
+    },
+    {
+    "playerId": 4,
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "image": "https://example.com/images/jasprit_bumrah.jpg",
+    "role": "Bowler",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm fast",
+    "biddingPrice": 2200000,
+    "rating": 4
+    },
+    {
+    "playerId": 5,
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "image": "https://example.com/images/kane_williamson.jpg",
+    "role": "Batsman",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm offbreak",
+    "biddingPrice": 1700000,
+    "rating": 4
+    },
+    {
+    "playerId": 6,
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "image": "https://example.com/images/rashid_khan.jpg",
+    "role": "Bowler",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm legbreak googly",
+    "biddingPrice": 1900000,
+    "rating": 4
+    },
+    {
+    "playerId": 7,
+    "name": "David Warner",
+    "country": "Australia",
+    "image": "https://example.com/images/david_warner.jpg",
+    "role": "Batsman",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Right-arm leg spin",
+    "biddingPrice": 2100000,
+    "rating": 5
+    },
+    {
+    "playerId": 8,
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "image": "https://example.com/images/shakib_al_hasan.jpg",
+    "role": "All-Rounder",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Left-arm orthodox",
+    "biddingPrice": 1600000,
+    "rating": 4
+    },
+    {
+    "playerId": 9,
+    "name": "Quinton de Kock",
+    "country": "South Africa",
+    "image": "https://example.com/images/quinton_de_kock.jpg",
+    "role": "Wicketkeeper-Batsman",
+    "battingType": "Left-hand bat",
+    "bowlingType": "N/A",
+    "biddingPrice": 1500000,
+    "rating": 3
+    },
+    {
+    "playerId": 10,
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "image": "https://example.com/images/babar_azam.jpg",
+    "role": "Batsman",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm offbreak",
+    "biddingPrice": 2300000,
+    "rating": 4
+    },
+    {
+    "playerId": 11,
+    "name": "Andre Russell",
+    "country": "West Indies",
+    "image": "https://example.com/images/andre_russell.jpg",
+    "role": "All-Rounder",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm fast",
+    "biddingPrice": 2400000,
+    "rating": 3
+    },
+    {
+    "playerId": 12,
+    "name": "Trent Boult",
+    "country": "New Zealand",
+    "image": "https://example.com/images/trent_boult.jpg",
+    "role": "Bowler",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Left-arm fast-medium",
+    "biddingPrice": 2000000,
+    "rating": 5
+    },
+    {
+    "playerId": 13,
+    "name": "KL Rahul",
+    "country": "India",
+    "image": "https://example.com/images/kl_rahul.jpg",
+    "role": "Wicketkeeper-Batsman",
+    "battingType": "Right-hand bat",
+    "bowlingType": "",
+    "biddingPrice": 1750000,
+    "rating": 3
+    },
+    {
+    "playerId": 14,
+    "name": "Mitchell Starc",
+    "country": "Australia",
+    "image": "https://example.com/images/mitchell_starc.jpg",
+    "role": "Bowler",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Left-arm fast",
+    "biddingPrice": 2100000,
+    "rating": 5
+    },
+    {
+    "playerId": 15,
+    "name": "Joe Root",
+    "country": "England",
+    "image": "https://example.com/images/joe_root.jpg",
+    "role": "Batsman",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm offbreak",
+    "biddingPrice": 1600000,
+    "rating": 4
+    },
+    {
+    "playerId": 16,
+    "name": "Shaheen Afridi",
+    "country": "Pakistan",
+    "image": "https://example.com/images/shaheen_afridi.jpg",
+    "role": "Bowler",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Left-arm fast",
+    "biddingPrice": 1850000,
+    "rating": 4
+    },
+    {
+    "playerId": 17,
+    "name": "Hardik Pandya",
+    "country": "India",
+    "image": "https://example.com/images/hardik_pandya.jpg",
+    "role": "All-Rounder",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm medium-fast",
+    "biddingPrice": 1950000,
+    "rating": 3
+    },
+    {
+    "playerId": 18,
+    "name": "Faf du Plessis",
+    "country": "South Africa",
+    "image": "https://example.com/images/faf_du_plessis.jpg",
+    "role": "Batsman",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm leg spin",
+    "biddingPrice": 1400000,
+    "rating": 4
+    },
+    {
+    "playerId": 19,
+    "name": "Mohammad Nabi",
+    "country": "Afghanistan",
+    "image": "https://example.com/images/mohammad_nabi.jpg",
+    "role": "All-Rounder",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm offbreak",
+    "biddingPrice": 1300000,
+    "rating": 3
+    },
+    {
+    "playerId": 20,
+    "name": "Nicholas Pooran",
+    "country": "West Indies",
+    "image": "https://example.com/images/nicholas_pooran.jpg",
+    "role": "Wicketkeeper-Batsman",
+    "battingType": "Left-hand bat",
+    "bowlingType": "",
+    "biddingPrice": 1450000,
+    "rating": 3
+    },
+    {
+    "playerId": 21,
+    "name": "Mohammed Shami",
+    "country": "India",
+    "image": "https://example.com/images/mohammed_shami.jpg",
+    "role": "Bowler",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm fast",
+    "biddingPrice": 1700000,
+    "rating": 3
+    }
+]
