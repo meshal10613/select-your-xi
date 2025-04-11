@@ -5,7 +5,7 @@
     background: 
     url('/bg-shadow.png') no-repeat center center,black;                                  
     background-size: cover, cover;
-    height: 65vh;
+    min-height: 70vh;
 }
 
 .my-element-footer{

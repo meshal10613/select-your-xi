@@ -41,7 +41,7 @@ const Player = ({player, SelectedPlayers}) => {
                         <h2 className='text-gray-500'>{player.bowlingType}</h2>
                     </div>
                     <div className="card-actions justify-between items-center">
-                        <h1>{player.biddingPrice}</h1>
+                        <h1>Price: ${player.biddingPrice}</h1>
                         <button id={`pl-${player.id}`} onClick={() => {SelectedPlayers(player)}} className="btn">Choose Player</button>
                     </div>
                 </div>

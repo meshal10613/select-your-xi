@@ -22,7 +22,7 @@ const DisplayPlayers = () => {
         document.getElementById("second-btn").style.backgroundColor = "white";
         document.getElementById("second-btn").style.color = "#9E9E9E";
 
-        document.getElementById("available-p").style.display = "block";
+        document.getElementById("available-p").style.display = "grid";
         document.getElementById("selected-p").style.display = "none";
     };
 
@@ -50,22 +50,41 @@ const DisplayPlayers = () => {
             setSelectedPlr(6)
         }
     }
+
+    const removeSelectedPlayers = (choose) => {
+        const newRemove = choosePlayer.filter((favorite) => favorite.playerId !== choose.playerId);
+        setChoosePlayer(newRemove);
+        setSelectedPlr(selectedPlr - 1);
+    }
+
+    const addMorePlayer = () => {
+        document.getElementById("first-title").style.display = "block";
+        document.getElementById("second-title").style.display = "none";
+
+        document.getElementById("first-btn").style.backgroundColor = "#E7FE29";
+        document.getElementById("first-btn").style.color = "black";
+        document.getElementById("second-btn").style.backgroundColor = "white";
+        document.getElementById("second-btn").style.color = "#9E9E9E";
+
+        document.getElementById("available-p").style.display = "grid";
+        document.getElementById("selected-p").style.display = "none";
+    }
     return (
         <div className='w-10/12 mx-auto'>
-            <div className='flex justify-between items-center my-10'>
+            <div className='flex flex-col md:flex-row justify-between items-center my-10'>
                 <div>
                     <h1 className='text-2xl font-bold'>
                         <span id='first-title'>Available Players </span>
                         <span id='second-title' className='hidden'>Selected Players ({selectedPlr}/6)</span>
                     </h1>
                 </div>
-                <div>
-                    <button id='first-btn' onClick={() => {handleBtn1()}} className='btn1 btn py-2 px-4 cursor-pointer bg-[#E7FE29] text-black text-xl'>Available</button>
-                    <button id='second-btn' onClick={() => {handleBtn2()}} className='btn2 btn py-2 px-4 cursor-pointer text-[#9E9E9E] text-xl'>Selected ({selectedPlr})</button>
+                <div className='flex'>
+                    <button id='first-btn' onClick={() => {handleBtn1()}} className='btn1 btn md:py-2 md:px-4 cursor-pointer bg-[#E7FE29] text-black text-xl'>Available</button>
+                    <button id='second-btn' onClick={() => {handleBtn2()}} className='btn2 btn md:py-2 md:px-4 cursor-pointer text-[#9E9E9E] text-xl'>Selected ({selectedPlr})</button>
                 </div>
             </div>
             <div>
-                <div id='available-p' className='grid grid-cols-3 gap-10'>
+                <div id='available-p' className='grid grid-cols-1 md:grid-cols-3 gap-10'>
                     {
                         players.map(player => <Player 
                             key={player.playerId} 
@@ -74,7 +93,11 @@ const DisplayPlayers = () => {
                     }
                 </div>
                 <div id='selected-p' className='hidden'>
-                    <SelectedPlayer key={choosePlayer.id} choosePlayer={choosePlayer}></SelectedPlayer>
+                    <SelectedPlayer
+                        choosePlayer={choosePlayer}
+                        removeSelectedPlayers={removeSelectedPlayers}
+                        addMorePlayer={addMorePlayer}>
+                    </SelectedPlayer>
                 </div>
             </div>
         </div>

@@ -42,14 +42,14 @@ const Footer = () => {
                         <form>
                             <h6 className="footer-title">Subcribe</h6>
                             <p className='text-gray-400'>Subscribe to our newsletter for the <br /> latest updates.</p>
-                            <fieldset className="w-80">
-                            <div className="join">
-                                <input
-                                type="text"
-                                placeholder="username@site.com"
-                                className="input input-bordered join-item" />
-                                <button className="btn btn-primary join-item">Subscribe</button>
-                            </div>
+                            <fieldset className="w-80 rounded-md">
+                                <div className="join">
+                                    <input
+                                    type="text"
+                                    placeholder="username@site.com"
+                                    className="input input-bordered join-item" />
+                                    <button className="join-item btn px-5 bg-gradient-to-r from-blue-300 to-orange-200">Subscribe</button>
+                                </div>
                             </fieldset>
                         </form>
                     </footer>
